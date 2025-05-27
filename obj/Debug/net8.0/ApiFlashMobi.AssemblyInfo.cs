@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiFlashMobi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+892efd3e3d7d28dc543f80d8ad0d2582c0443a1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48f6354b218860dae467b0064491522b86df7e9a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiFlashMobi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiFlashMobi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

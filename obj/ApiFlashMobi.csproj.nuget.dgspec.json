@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\3 semestre\\Cs\\ApiFlashMobi\\ApiFlashMobi.csproj": {}
+    "D:\\Arquivos\\Área de Trabalho\\ApiFlashMobi\\ApiFlashMobi.csproj": {}
   },
   "projects": {
-    "D:\\3 semestre\\Cs\\ApiFlashMobi\\ApiFlashMobi.csproj": {
+    "D:\\Arquivos\\Área de Trabalho\\ApiFlashMobi\\ApiFlashMobi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3 semestre\\Cs\\ApiFlashMobi\\ApiFlashMobi.csproj",
+        "projectUniqueName": "D:\\Arquivos\\Área de Trabalho\\ApiFlashMobi\\ApiFlashMobi.csproj",
         "projectName": "ApiFlashMobi",
-        "projectPath": "D:\\3 semestre\\Cs\\ApiFlashMobi\\ApiFlashMobi.csproj",
-        "packagesPath": "C:\\Users\\JORGEFERNANDOKOZLOSK\\.nuget\\packages\\",
-        "outputPath": "D:\\3 semestre\\Cs\\ApiFlashMobi\\obj\\",
+        "projectPath": "D:\\Arquivos\\Área de Trabalho\\ApiFlashMobi\\ApiFlashMobi.csproj",
+        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
+        "outputPath": "D:\\Arquivos\\Área de Trabalho\\ApiFlashMobi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\JORGEFERNANDOKOZLOSK\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -77,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
