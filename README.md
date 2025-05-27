@@ -8,26 +8,29 @@ O ApiFlashMobi é uma API simples para gerenciamento de pedidos de frete. Ela pe
 
 ## Funcionalidades
 
-- Cadastro de pedidos de frete
-- Consulta de pedidos existentes
-- Remoção de pedidos
+- GET: Consulta de pedidos existentes (/pedidos)
+- GET: Busca por pedido específico (/pedidos/{id})
+- POST: Cadastro de pedidos de frete (/pedidos)
+- DELETE: Remoção de pedidos (/pedidos/{id})
 
 ## Tecnologias utilizadas
 
 - SQLite: banco de dados para armazenar os pedidos
 - Entity Framework Core: simplifica a comunicação do .NET com o banco de dados
 
-## Estrutura da Entidade Pedido
+## Estrutura da entidade Pedido
 
 ```csharp
 public class Pedido
 {
-    public int Id { get; set; }
-    public int IdRemetente { get; set; }
-    public DateTime DataPostagem { get; set; }
-    public string EnderecoDestinatario { get; set; }
-    public DateTime DataEntrega { get; set; }
-    public string StatusEntrega { get; set; }
-    public double Preco { get; set; }
-    public int IdVeiculo { get; set; }
+        public int Id { get; set; }
+        public int IdRemetente { get; set; }
+        public DateTime DataPostagem { get; set; }
+        public string NomeEndereco { get; set; }
+        public int NumeroEndereco { get; set; }
+        public long Cep { get; set; }
+        public DateTime DataEntrega { get; set; }
+        public string StatusEntrega { get; set; }
+        public double Preco { get; set; }
+        public int IdVeiculo { get; set; }
 }

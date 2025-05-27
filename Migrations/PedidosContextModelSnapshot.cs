@@ -23,20 +23,26 @@ namespace ApiFlashMobi.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<long>("Cep")
+                        .HasColumnType("INTEGER");
+
                     b.Property<DateTime>("DataEntrega")
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("DataPostagem")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("EnderecoDestinatario")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
                     b.Property<int>("IdRemetente")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("IdVeiculo")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("NomeEndereco")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("NumeroEndereco")
                         .HasColumnType("INTEGER");
 
                     b.Property<double>("Preco")
