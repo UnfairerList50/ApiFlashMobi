@@ -33,9 +33,8 @@ namespace ApiFlashMobi.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("IdRemetente")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
+                    b.Property<int>("IdRemetente")
+                        .HasColumnType("INTEGER");
 
                     b.Property<int>("IdVeiculo")
                         .HasColumnType("INTEGER");
@@ -43,8 +42,9 @@ namespace ApiFlashMobi.Migrations
                     b.Property<double>("Preco")
                         .HasColumnType("REAL");
 
-                    b.Property<double>("TamanhoPacote")
-                        .HasColumnType("REAL");
+                    b.Property<string>("StatusEntrega")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 

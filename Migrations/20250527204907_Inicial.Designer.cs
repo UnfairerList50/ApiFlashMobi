@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApiFlashMobi.Migrations
 {
     [DbContext(typeof(PedidosContext))]
-    [Migration("20250522140748_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250527204907_Inicial")]
+    partial class Inicial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,9 +36,8 @@ namespace ApiFlashMobi.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("IdRemetente")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
+                    b.Property<int>("IdRemetente")
+                        .HasColumnType("INTEGER");
 
                     b.Property<int>("IdVeiculo")
                         .HasColumnType("INTEGER");
@@ -46,8 +45,9 @@ namespace ApiFlashMobi.Migrations
                     b.Property<double>("Preco")
                         .HasColumnType("REAL");
 
-                    b.Property<double>("TamanhoPacote")
-                        .HasColumnType("REAL");
+                    b.Property<string>("StatusEntrega")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 

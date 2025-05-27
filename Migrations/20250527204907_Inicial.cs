@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ApiFlashMobi.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class Inicial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -17,11 +17,11 @@ namespace ApiFlashMobi.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    IdRemetente = table.Column<string>(type: "TEXT", nullable: false),
+                    IdRemetente = table.Column<int>(type: "INTEGER", nullable: false),
                     DataPostagem = table.Column<DateTime>(type: "TEXT", nullable: false),
                     EnderecoDestinatario = table.Column<string>(type: "TEXT", nullable: false),
                     DataEntrega = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    TamanhoPacote = table.Column<double>(type: "REAL", nullable: false),
+                    StatusEntrega = table.Column<string>(type: "TEXT", nullable: false),
                     Preco = table.Column<double>(type: "REAL", nullable: false),
                     IdVeiculo = table.Column<int>(type: "INTEGER", nullable: false)
                 },

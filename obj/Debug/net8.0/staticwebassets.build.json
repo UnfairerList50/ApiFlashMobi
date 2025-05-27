@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "r7VI0iDCC6WFvc5D6sh8sssx0dNvwB8iWjzhzxw3hRU=",
+  "Hash": "pzDqU4+aWqTjYCo7abpBpRYJRzfmXbXwqKbvhMsrXc4=",
   "Source": "ApiFlashMobi",
   "BasePath": "_content/ApiFlashMobi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
