@@ -2,6 +2,12 @@
 
 Este projeto foi desenvolvido como parte de um exercício prático para aprendizado de desenvolvimento de APIs REST com .NET.
 
+## Equipe
+- Gabriel Anaya Brasílio da Rocha
+- Jorge Fernando Kozloski de Aquino
+- Juan Bernardo Ferreira
+- Northon Henrique dos Santos
+
 ## Descrição
 
 O ApiFlashMobi é uma API simples para gerenciamento de pedidos de frete. Ela permite cadastrar, consultar e remover pedidos, simulando um sistema de logística.
