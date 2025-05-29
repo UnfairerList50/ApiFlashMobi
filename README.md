@@ -1,4 +1,4 @@
-# ApiFlashMobi
+# API FlashMobi
 
 Este projeto foi desenvolvido como parte de um exercício prático para aprendizado de desenvolvimento de APIs REST com .NET.
 
@@ -10,7 +10,7 @@ Este projeto foi desenvolvido como parte de um exercício prático para aprendiz
 
 ## Descrição
 
-O ApiFlashMobi é uma API simples para gerenciamento de pedidos de frete. Ela permite cadastrar, consultar e remover pedidos, simulando um sistema de logística.
+A API FlashMobi é uma API simples para gerenciamento de pedidos de frete. Ela permite cadastrar, consultar e remover pedidos, simulando um sistema de logística.
 
 ## Funcionalidades
 
